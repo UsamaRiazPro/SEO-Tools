@@ -1,0 +1,339 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-text {
+    color: #00A8E8;
+}
+
+.logo-globe {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00A8E8;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: #00A8E8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6C63FF;
+    padding: 60px 100px;
+    color: white;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.signup-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image img {
+    max-width: 350px;
+}
+/* Section Styling */
+.why-best {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d0c7de;
+    text-align: center;
+    padding: 40px;
+}
+
+.why-best h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 100px;
+    height: 3px;
+    background-color: #008000;
+    border: none;
+    margin: 5px auto 20px auto;
+}
+
+.why-best p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Statistics Box Styling */
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.stat-box {
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+/* Box Colors */
+.red {
+    background-color: #d41e28;
+}
+
+.blue {
+    background-color: #0057ff;
+}
+
+.yellow {
+    background-color: #d4a017;
+}
+
+.green {
+    background-color: #1ea41e;
+}
+
+/* SEO Tools Section */
+.seo-tools {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.seo-tools h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.highlight {
+    color: green;
+}
+
+.underline {
+    width: 100px;
+    height: 3px;
+    background-color: #008000;
+    border: none;
+    margin: 5px auto 20px auto;
+}
+
+/* Tool Cards */
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tool-card {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tool-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.tool-card h3 {
+    font-size: 20px;
+    background-color: #78cf96;
+    margin: 15px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.tool-card p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Buy Now Buttons */
+button {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.yellow {
+    background-color: #d4a017;
+}
+
+.orange {
+    background-color: #ff6600;
+}
+
+.blue {
+    background-color: #0057ff;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.red {
+    background-color: #d41e28;
+}
+
+.black {
+    background-color: #000000;
+}
+/* Writing Tools Section */
+.writing-tools {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.writing-tools h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: green;
+}
+
+.underline {
+    width: 100px;
+    height: 3px;
+    background-color: #008000;
+    border: none;
+    margin: 5px auto 20px auto;
+}
+
+/* Tool Cards */
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tool-card {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.tool-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.tool-card p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Buy Now Buttons */
+button {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.purple {
+    background-color: #800080;
+}
+
+.black {
+    background-color: #000000;
+}
